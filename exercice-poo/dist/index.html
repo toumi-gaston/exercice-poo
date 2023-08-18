@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>POO - Inscription form - Noémie Gagnon</title>
+    <link rel="stylesheet" href="/index.044e704e.css">
+    <script src="/index.18dbc454.js" defer=""></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center py-5">Student Subscription Form</h1>
+    </header>
+    <main>
+      <form id="form" method="get" class="container w-50">
+        <div class="row justify-content-center">
+          <fieldset class="col-12 col-md-9">
+            <label id="fn-label" for="fn-input" class="form-label">First name : </label>
+            <input id="fn-input" type="text" class="form-input" name="fname">
+          </fieldset>
+          <fieldset class="col-12 col-md-3">
+            <label id="ln-label" for="ln-input" class="form-label">Last name :</label>
+            <input id="ln-input" class="form-input" type="text" name="lname">
+          </fieldset>
+          <fieldset class="col-12">
+            <label id="birthday-label" for="birthday-input" class="form-label">Select date of birth</label>
+            <input id="birthday-input" class="form-input" type="date" name="birthday">
+          </fieldset>
+          <fieldset class="col-12 col-md-9">
+            <label id="program-label" for="program-input" class="form-label">Select your program</label>
+            <select id="program-input" class="form-input" name="program">
+              <option value="">--Please select an option--</option>
+              <option value="Microwave Cooking">Microwave Cooking</option>
+              <option value="Pro Wrestling">Pro Wrestling</option>
+              <option value="Coupons Science">Coupons science</option>
+              <option value="NFT Arts">NFT Arts</option>
+              <option value="Muggle Studies">Muggle Studies</option>
+              <option value="Air Guitar">Air Guitar</option>
+            </select>
+          </fieldset>
+          <fieldset class="col-12 col-md-3">
+            <label id="picture-label" class="form-label" for="picture-input">Select a profil picture</label>
+            <input id="picture-input" class="form-input" name="picture" type="file">
+          </fieldset>
+          <div class="col-12 d-flex justify-content-center mt-3">
+            <button id="btn-submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+      <hr class="mx-5">
+      <div class="students-list-heading container w-50">
+        <div class="row">
+          <h3 class="col-10">Students List</h3>
+          <button id="btn-reorder" class="btn btn-secondary col-2 justify-content-center">Reorder</button>
+        </div>
+      </div>
+      <section id="students-list" class="w-50 mx-auto my-5">
+
+        
+        
+      </section>
+    </main>
+
+  </body>
+</html>
